@@ -17,15 +17,17 @@
 # 2015 Nissan Leaf
 
 class Vehicle:
+    wheels = 4
+
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
         self.year = year
     
     def print_info(self):
-        print(self.make, self.model, self.year)
+        print(f"My {self.make} {self.model} is a {self.year}")
 
-car1 = Vehicle('Volkswagen', 'Passat', 2015)
+car1 = Vehicle('Volkswagen', 'Passat', 2014)
 car2 = Vehicle('BMW', '220i', 2019)
 
 car1.print_info()
