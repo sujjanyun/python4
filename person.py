@@ -25,4 +25,6 @@ Sonny  = Person("Sonny", 'sonny@hotmail.com', '483-485-4948')
 
 Jordan = Person("Jordan", 'jordan@aol.com', '495-586-3456')
 
-greet
+Sonny.greet(Jordan)
+
+Jordan.greet(Sonny)
