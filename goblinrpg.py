@@ -18,6 +18,7 @@ class Hero(Character):
         goblin.health -= self.power
         print("You do %d damage to the goblin." % (self.power))
 
+
     def print_status(self):
         print("You have %d health and %d power." % (self.health, self.power))
 
@@ -46,6 +47,4 @@ hero.print_status()
 goblin.print_status()
 
 hero.alive()
-
-
 # when it says bound blahhh, you are probably printing the whole thing again
